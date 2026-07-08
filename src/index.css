@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Playfair Display", serif;
+  --font-cursive: "Great Vibes", cursive;
+  --font-sans: "Inter", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+  --color-natural-bg: #FDFBF7;
+  --color-natural-text: #4A453E;
+  --color-natural-gold: #C5A059;
+  --color-natural-gold-soft: #D4C9B5;
+  --color-natural-olive: #606C38;
+  --color-natural-olive-light: #E9EDC9;
+  --color-natural-olive-pale: #CCD5AE;
+  --color-natural-sage: #A3AD85;
+}
+
+@keyframes float-slow {
+  0%, 100% { transform: translateY(0px) rotate(0deg); }
+  50% { transform: translateY(-10px) rotate(3deg); }
+}
+
+@keyframes pulse-slow {
+  0%, 100% { opacity: 0.3; }
+  50% { opacity: 0.6; }
+}
+
+.animate-float {
+  animation: float-slow 6s ease-in-out infinite;
+}
+
+.animate-pulse-slow {
+  animation: pulse-slow 4s ease-in-out infinite;
+}
+
+/* Natural Tones Grid Background Pattern */
+.bg-pattern {
+  background-image: radial-gradient(#D4C9B5 0.6px, transparent 0.6px);
+  background-size: 24px 24px;
+}
+
+/* Custom scrollbar for wishes wall in Natural Tones theme */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 4px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: rgba(212, 201, 181, 0.1);
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(96, 108, 56, 0.25);
+  border-radius: 2px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: rgba(96, 108, 56, 0.45);
+}
+

@@ -1,0 +1,6 @@
+{
+  "name": "Umar va Malika To'y Taklifnomasi",
+  "description": "Umar va Malika nikoh to'yining interaktiv va animatsiyali raqamli taklifnomasi",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
