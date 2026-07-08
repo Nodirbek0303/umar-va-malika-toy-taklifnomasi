@@ -186,7 +186,7 @@ export default function App() {
                       </h3>
                       <div className="h-[1px] w-12 bg-natural-gold-soft/40 mx-auto my-3.5" />
                       <p className="font-mono text-[9px] text-natural-text/60 tracking-widest font-semibold">
-                        29 . 07 . 2026
+                        29 . 07 . 2026 · 09:00
                       </p>
                     </div>
 
@@ -334,7 +334,7 @@ export default function App() {
                     "Hayot yo'llarimiz birlashgan ushbu baxtli kunda, qalbimiz quvonchini siz aziz yaqinlarimiz bilan ulashishdan g'oyat mamnunmiz. Ilohiy rishtalar ila bog'lanayotgan oilamiz poydevoriga guvoh bo'ling."
                   </p>
                   <p className="font-serif text-xs leading-relaxed text-natural-text/90 font-medium">
-                    Sizni nikoh oqshomi munosabati bilan yoziladigan dasturxonimizga lutfan taklif etamiz.
+                    Sizni nikoh tongi munosabati bilan yoziladigan dasturxonimizga lutfan taklif etamiz.
                   </p>
                 </div>
               </ScrollSection>
@@ -441,8 +441,8 @@ export default function App() {
                     </span>
                     <div>
                       <p className="text-[10px] uppercase tracking-wider text-natural-text/50 font-bold">Boshlanish vaqti</p>
-                      <p className="text-xs font-bold text-natural-text mt-0.5">Kechki soat 18:00</p>
-                      <p className="text-[10px] text-natural-text/70">Fayzli oqshom</p>
+                      <p className="text-xs font-bold text-natural-text mt-0.5">Ertalab soat 09:00</p>
+                      <p className="text-[10px] text-natural-text/70">Barakali tong</p>
                     </div>
                   </div>
                 </div>
@@ -452,7 +452,7 @@ export default function App() {
                     To'y Dasturi
                   </h3>
                   <p id="schedule-subtitle" className="mt-1 text-xs text-natural-text/70">
-                    29-Iyul oqshomidagi barcha tantanali marosimlar jadvali
+                    29-Iyul ertalabidagi barcha tantanali marosimlar jadvali
                   </p>
                 </div>
 
@@ -466,7 +466,7 @@ export default function App() {
                     <div className="space-y-1">
                       <span className="inline-flex items-center gap-1.5 rounded-full bg-natural-olive/10 border border-natural-olive/20 px-2.5 py-0.5 text-[10px] font-bold text-natural-olive">
                         <Clock className="h-3 w-3" />
-                        18:00
+                        09:00
                       </span>
                       <h4 className="text-sm font-bold text-natural-text">Kelin-Kuyov Tashrifi va Kutib Olish</h4>
                       <p className="text-xs text-natural-text/80 leading-relaxed">
@@ -483,7 +483,7 @@ export default function App() {
                     <div className="space-y-1">
                       <span className="inline-flex items-center gap-1.5 rounded-full bg-natural-olive/10 border border-natural-olive/20 px-2.5 py-0.5 text-[10px] font-bold text-natural-olive">
                         <Heart className="h-3 w-3" />
-                        18:30
+                        Keyinroq
                       </span>
                       <h4 className="text-sm font-bold text-natural-text">Nikoh va Uzuk Alishish Marosimi</h4>
                       <p className="text-xs text-natural-text/80 leading-relaxed">
@@ -500,7 +500,7 @@ export default function App() {
                     <div className="space-y-1">
                       <span className="inline-flex items-center gap-1.5 rounded-full bg-natural-olive/10 border border-natural-olive/20 px-2.5 py-0.5 text-[10px] font-bold text-natural-olive">
                         <Utensils className="h-3 w-3" />
-                        19:00
+                        Keyinroq
                       </span>
                       <h4 className="text-sm font-bold text-natural-text">Tantana Boshlanishi va Ziyofat</h4>
                       <p className="text-xs text-natural-text/80 leading-relaxed">
@@ -517,7 +517,7 @@ export default function App() {
                     <div className="space-y-1">
                       <span className="inline-flex items-center gap-1.5 rounded-full bg-natural-olive/10 border border-natural-olive/20 px-2.5 py-0.5 text-[10px] font-bold text-natural-olive">
                         <Heart className="h-3 w-3 fill-natural-olive/20" />
-                        20:30
+                        Keyinroq
                       </span>
                       <h4 className="text-sm font-bold text-natural-text">Kelin-Kuyovning Birinchi Valsi</h4>
                       <p className="text-xs text-natural-text/80 leading-relaxed">
@@ -534,7 +534,7 @@ export default function App() {
                     <div className="space-y-1">
                       <span className="inline-flex items-center gap-1.5 rounded-full bg-natural-olive/10 border border-natural-olive/20 px-2.5 py-0.5 text-[10px] font-bold text-natural-olive">
                         <Gift className="h-3 w-3" />
-                        21:00
+                        Keyinroq
                       </span>
                       <h4 className="text-sm font-bold text-natural-text">Raqs, Shou-dastur va Sovg'alar</h4>
                       <p className="text-xs text-natural-text/80 leading-relaxed">

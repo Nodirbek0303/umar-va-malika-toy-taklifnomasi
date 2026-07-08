@@ -14,7 +14,7 @@ interface TimeLeft {
 }
 
 export default function Countdown() {
-  const targetDate = new Date("2026-07-29T18:00:00+05:00"); // Tashkent time zone (UTC+5)
+  const targetDate = new Date("2026-07-29T09:00:00+05:00"); // Tashkent time zone (UTC+5)
 
   const calculateTimeLeft = (): TimeLeft => {
     const now = new Date();
